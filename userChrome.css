@@ -1,0 +1,25 @@
+/*AGENT_SHEET*/
+
+#main-window[sizemode="normal"] > #titlebar {
+  margin-bottom: -31px !important;
+}
+
+.tabbrowser-tab[pending] .tab-label {
+  font-style: italic !important;
+}
+
+.tabbrowser-tab[pending] .tab-label {
+  opacity: 0.7 !important;
+}
+
+.tabbrowser-tab[pending] .tab-icon-image {
+  opacity: 0.7 !important;
+}
+
+.tabbrowser-tab[unread] .tab-label {
+  font-style: italic !important;
+}
+
+.tabbrowser-tab:hover:not([pinned]) .tab-close-button {
+	display: inherit !important;
+}
