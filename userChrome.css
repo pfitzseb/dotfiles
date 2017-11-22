@@ -5,12 +5,15 @@
   margin-bottom: -31px !important;
 }
 
+/* styling for selected tab */
+.tabbrowser-tab[selected] .tab-label {
+  color: blue !important;
+  font-weight: bold !important;
+}
+
 /* styling for unread/unloaded tabs */
 .tabbrowser-tab[pending] .tab-label {
   font-style: italic !important;
-}
-
-.tabbrowser-tab[pending] .tab-label {
   opacity: 0.6 !important;
 }
 
@@ -20,6 +23,7 @@
 
 .tabbrowser-tab[unread] .tab-label {
   font-style: italic !important;
+  color: red !important;
 }
 
 /* show tab close button when hovering over tab */
